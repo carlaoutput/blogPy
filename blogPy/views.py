@@ -1,5 +1,6 @@
 from django.http import HttpResponseRedirect
 from django.views.generic import TemplateView
+from django.urls import reverse
 
 class TestPage(TemplateView):
     template_name = 'test.html'
