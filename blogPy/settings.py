@@ -25,7 +25,7 @@ SECRET_KEY = '@)rl(-us(v+1p#@d^h2pob6!#i9fv=6^jx-!i!*-&wxch%c#2@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['178.128.145.152']
+ALLOWED_HOSTS = ['178.128.145.152', '127.0.0.1','www.ussoccer.live']
 
 
 # Application definition
