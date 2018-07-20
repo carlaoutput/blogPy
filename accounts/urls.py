@@ -1,5 +1,5 @@
 from django.conf.urls import url
-from django.contrib.auth import views as auth_views
+from django.contrib.auth import views as auth_views  # autoriation views para que no se confunda con el view the abajo
 from django.urls import reverse
 from . import views
 
