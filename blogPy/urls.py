@@ -18,7 +18,7 @@ from django.contrib import admin
 from . import views
 
 
-# Blog connexions by CarlaPastor
+# Blog connexions by Carla
 urlpatterns = [
     url(r"^$", views.HomePage.as_view(), name="home"),
     url(r"^test/$", views.TestPage.as_view(), name="test"),
@@ -26,7 +26,7 @@ urlpatterns = [
     url(r"^admin/", admin.site.urls),
     url(r"^accounts/", include("accounts.urls", namespace="accounts")),
     url(r"^accounts/", include("django.contrib.auth.urls")),
-  #  url(r"^posts/", include("posts.urls", namespace="posts")),
-  #  url(r"^groups/",include("groups.urls", namespace="groups")),
+    url(r"^posts/", include("posts.urls", namespace="posts")),
+    url(r"^groups/",include("groups.urls", namespace="groups")),
 ]
 

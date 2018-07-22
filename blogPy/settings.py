@@ -9,7 +9,6 @@ https://docs.djangoproject.com/en/2.0/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/2.0/ref/settings/
 """
-
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -22,14 +21,13 @@ TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates')
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = '@)rl(-us(v+1p#@d^h2pob6!#i9fv=6^jx-!i!*-&wxch%c#2@'
 
-# SECURITY WARNING: don't run with debug turned on in production!
+# SECURITY WARNING: don't run with debug turned on in production! 
 DEBUG = True
 
 ALLOWED_HOSTS = ['178.128.145.152', '127.0.0.1','www.ussoccer.live']
 
-
 # Application definition
-
+ # modif by CarlaP.
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -37,8 +35,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'bootstrap3',    # added by CarlaP.
-    'accounts'
+    'django.contrib.humanize',
+    'bootstrap3',   
+    'accounts',
+    'groups',
+    'posts',
+
 ]
 
 MIDDLEWARE = [
