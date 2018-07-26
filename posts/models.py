@@ -4,7 +4,7 @@ from django.urls import reverse
 from django.urls import reverse_lazy
 from django.db import models
 
-# import misaka # nos permite hacer linkin que son como un texto de marca, simitar al sistema de comentarios de redit puedes hacer enlaces q son un poco 
+#import misaka # nos permite hacer linkin que son como un texto de marca, simitar al sistema de comentarios de redit puedes hacer enlaces q son un poco 
 from groups.models import  Group
 
 from django.contrib.auth import get_user_model

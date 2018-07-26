@@ -8,10 +8,12 @@
 			<time class="time"><a href="{% url 'posts:single' username=post.user.username pk=post.pk %}">
 				{{ post.created_at }}</a></time>
 			{% if post.group %}
-			<span class="group-name">in <a href="#">{{ post.group.name }}</a></span>
+			<span class="group-name">in <a href="{% url 'groups:single' post.group.slug %}">{{ post.group.name }}</a></span>
 			{% endif %}
 		</h5>
-
+        <div class="row m-5">
+            {{ post.message }}
+        </div>
 
 		<div class="media-footer">
 			{% if user.is_authenticated and post.user == user and not hide_delete %}

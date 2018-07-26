@@ -4,7 +4,7 @@ from django.db import models
 from django.utils.text import slugify
 from accounts.models import User
 
-# import misaka  # TEMPORARILY C-OUT 
+#import misaka  # TEMPORARILY C-OUT 
 
 from django.contrib.auth import get_user_model  # return the user model that is currently active in this project
 User = get_user_model()  # create a user object
