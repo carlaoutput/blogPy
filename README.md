@@ -1,10 +1,10 @@
 # django social blog
 
-Python Project. Team 9. Sum-18 
+Python Project. Team 9. Sum-18. Carla P, Mauricio E. and Otto J.
 
 pip install django-bootstrap3
 
-pip install misaka
+pip install misaka (no used)
 
 pip install slugify
 
