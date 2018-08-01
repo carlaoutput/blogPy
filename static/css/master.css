@@ -1,5 +1,5 @@
 .mycontent{
-  padding-top: 100px;
+ padding-top: 100px;
  border: 10px solid red;
 }
 
@@ -9,9 +9,8 @@ body {
   width: 100%;
   overflow: hidden;
   background: #191063;
-  margin: 0;
+  margin: 2;
 }
-
 
 #note {
   position: absolute;
